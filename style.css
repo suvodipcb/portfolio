@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.bg_img{
+    display: flex;
+        background-color: #010101;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: "Ubuntu", sans-serif;
+}
+
+.nav{
+        display: block;
+    unicode-bidi: isolate;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #000080;
+    padding: 5px 0px;
+  }
+
+  .navbar .max-width{
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+  .navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.menu li{
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3sease;
+}
+
+.resume_navigation{
+    margin-left: 13px;
+    color: rgb(250, 246, 246);
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.cn1{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color:transparent; 
+    padding: 10px 20px; 
+    font-size: 20px;
+    text-align: center;
+   
+}
+.cn1 .text1 {
+    color: #fff;
+    font-size: 27px;
+    display: block;
+    unicode-bidi: isolate;
+}
+.cn1 .text2{
+    color: aqua;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: -3px;
+    display: block;
+    unicode-bidi: isolate;
+}
+.cn1 .text3{
+    font-size: 40px;
+    margin: 5px 0;
+    color: #fff;
+}
+.cn1 .text3 span{
+    color: #ffcc00;
+    font-weight: 500;
+}
+
+@keyframes colorChange {
+    from {
+      color: transparent;
+    }
+    to {
+      color:aqua;
+    }
+  }
+  
+  /* Apply the animation to the text element */
+  .cn1 .text3 .typing {
+    animation-name: colorChange;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+  }
+.cn2 .bg2_img img {
+      width: 100%;
+      height: 600px;
+  }
+
+.cn2 .title {
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+
+.cn2 .title1{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 118%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transform: translateX(-50%);
+}
+@keyframes colorChange {
+    from {
+      color: transparent;
+    }
+    to {
+      color:aqua;
+    }
+  }
+  
+  /* Apply the animation to the text element */
+  .cn2 .title1 {
+    animation-name: colorChange;
+    animation-duration: 3.2s;
+    animation-iteration-count: infinite;
+  }
+
+  .cn2 .prof{
+    position: absolute;
+    top: 118%;
+    left: 300px;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+  }
+  .cn2 .prof img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 2px #FFF0F5 solid;
+  }
+  .cn3 .text5{
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    color:white;
+    top: 132%;
+    left: 47.5%;
+  }
+
+  .cn3 .text4 p{
+    font-size: 20px;
+    position: absolute;
+    top: 135%;
+    left: 65%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    transform: translateX(-50%);
+  }
+  .cn3 .text4 .typing{
+    animation-name: colorChange;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+  }
+
+  .cn4 .back img{
+
+    width: 100%;
+  }
+.cn4 .title2 h2{
+  font-size: 40px;
+  background-color: transparent;
+  color: #ffcc00;
+  font-weight: 500;
+  position: absolute;
+    top: 188%;
+    left: 45%;
+}
+ .card {
+  background:#B0E0E6;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  position: absolute;
+    top: 207%;
+    left: 10%;
+  
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px white;
+}
+.card .box i{
+  color:orange;
+  font-size: 50px;
+}
+
+.card1{
+  background:#B0E0E6;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  position: absolute;
+    top: 207%;
+    left: 30%;
+  
+}
+.card1:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px white;
+}
+.card1 .box i{
+  color:blue;
+  font-size: 50px;
+}
+
+.card2{
+  background:#B0E0E6;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  position: absolute;
+    top: 207%;
+    left: 50%;
+  
+}
+.card2:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px white;
+}
+.card2 .box i{
+  color:#000080;
+  font-size: 50px;
+}
+
+
+.card3{
+  background:#B0E0E6;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  position: absolute;
+    top: 207%;
+    left: 70%;
+  
+}
+.card3:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px white;
+}
+.card3 .box i{
+  color:#000080;
+  font-size: 50px;
+}
+.cn5 .title3 h1{
+  font-size: 40px;
+  background-color: transparent;
+  color: 	#F4A460;
+  font-weight: 500;
+  position: absolute;
+  top: 305%;
+  left: 45%;
+text-shadow: #070707 0px 2px 0px;
+}
+
+.card4 .box{
+  background:#000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 325%;
+  left: 45%;
+}
+.card4 .box i{
+  color: #fff;
+  font-size: 50px;
+}
+.card4 .box p{
+  color:white;
+}
+.card4 :hover{
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgb(159, 91, 91);
+}
+
+
+.card5 .box{
+  background:#000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 45px;
+  cursor: pointer;
+  position: absolute;
+  top: 325%;
+  left: 25%;
+}
+.card5 .box i{
+  color: #fff;
+  font-size: 50px;
+}
+.card5 .box p{
+  color:white;
+}
+.card5 :hover{
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgb(159, 91, 91);
+}
+
+
+.card6 .box{
+  background:#000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 45px;
+  cursor: pointer;
+  position: absolute;
+  top: 325%;
+  left: 65%;
+}
+.card6 .box i{
+  color: #fff;
+  font-size: 50px;
+}
+.card6 .box p{
+  color:white;
+}
+.card6 :hover{
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgb(159, 91, 91);
+}
+
+
+.card7 .box{
+  background:#000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 355%;
+  left: 65%;
+}
+.card7 .box i{
+  color: #fff;
+  font-size: 50px;
+}
+.card7 .box p{
+  color:white;
+}
+.card7 :hover{
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgb(159, 91, 91);
+}
+
+
+.card8 .box{
+  background:#000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 355%;
+  left: 44%;
+}
+.card8 .box i{
+  color: #fff;
+  font-size: 50px;
+}
+.card8 .box p{
+  color:white;
+}
+.card8 :hover{
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgb(159, 91, 91);
+}
+
+.card9 .box{
+  background:#000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 355%;
+  left: 25%;
+}
+.card9 .box i{
+  color: #fff;
+  font-size: 50px;
+}
+.card9 .box p{
+  color:white;
+}
+.card9 :hover{
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgb(159, 91, 91);
+}
+
+.cn6 .bw img{
+  position: absolute;
+  top: 410%;
+  height: 90%;
+  width: 100%;
+}
+
+.cn6 .title4 h2{
+  font-size: 40px;
+  background-color: transparent;
+  color: 	#F4A460;
+  font-weight: 500;
+  position: absolute;
+  top: 420%;
+  left: 45%;
+text-shadow: #070707 0px 2px 0px;
+}
+
+
+.cn7 .bv img{
+  position: absolute;
+  top: 480%;
+  height: 70%;
+  width: 100%;
+}
+
+.cn7 .title5 h2{
+  font-size: 40px;
+  background-color: transparent;
+  color: 	#F4A460;
+  font-weight: 500;
+  position: absolute;
+  top: 485%;
+  left: 45%;
+text-shadow: #070707 0px 2px 0px;
+}
+.end .heading h1{
+  font-size: 25px;
+  background-color: transparent;
+  color: 	#F4A460;
+  font-weight: 500;
+  position: absolute;
+  top: 505%;
+  left: 10%;
+text-shadow: #070707 0px 2px 0px;
+}
+.end p{
+  font-size: 15px;
+  background-color: transparent;
+  color: 	#efeeee;
+  font-weight: 500;
+  position: absolute;
+  top: 510%;
+  left: 10%;
+}
+
+.end i{
+  color: #B0E0E6;
+  font-size: 23px;
+  position: absolute;
+  top: 520%;
+  left: 10%;
+}
+
+.end h4{
+  color: #B0E0E6;
+  font-size: 15px;
+  position: absolute;
+  top: 520%;
+  left: 13%;
+}
+
+.end .linkdin i{
+  color: #B0E0E6;
+  font-size: 23px;
+  position: absolute;
+  top: 525%;
+  left: 10%;
+}
+
+
+.end .linkdin h4{
+  position: absolute;
+  top: 525%;
+  left: 13%;
+}
+
+.end .linkdin h4 a{
+  color: #efeeee;
+  font-size: 15px;
+  position: absolute;
+  top: 525%;
+  left: 13%;
+}
+
+.end .linkdin1 i{
+  color: #B0E0E6;
+  font-size: 23px;
+  position: absolute;
+  top: 530%;
+  left: 10%;
+}
+
+
+.end .linkdin1 h4{
+  position: absolute;
+  top: 530%;
+  left: 13%;
+}
+
+.end .linkdin1 h4 a{
+  color: #efeeee;
+  font-size: 15px;
+  position: absolute;
+  top: 530%;
+  left: 13%;
+}
+
+
+.end .linkdin2 i{
+  color: #B0E0E6;
+  font-size: 23px;
+  position: absolute;
+  top: 535%;
+  left: 10%;
+}
+
+
+.end .linkdin2 h4{
+  position: absolute;
+  top: 535%;
+  left: 13%;
+}
+
+.end .linkdin3 i{
+  color: #B0E0E6;
+  font-size: 23px;
+  position: absolute;
+  top: 540%;
+  left: 10%;
+}
+
+
+.end .linkdin3 h4{
+  position: absolute;
+  top: 540%;
+  left: 13%;
+}
+
+.end .linkdin3 h4 a{
+  color: #efeeee;
+
+}
+
+.jod i{
+  position: absolute;
+  top: 550%;
+  left: 48%;
+  font-size: 15px;
+  color: #000;
+
+}
+.jod h3{
+  position: absolute;
+  top: 550%;
+  left: 50%;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #efeeee;
+
+}
+
+
+
+
+  
